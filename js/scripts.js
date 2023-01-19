@@ -130,6 +130,7 @@ prev.addEventListener("click", () => {
     findNinjas (ninjas)
 })
 
+document.querySelector('#leaf').classList.add('btn-active')
 findNinjas (`{
     characters(filter: {village: "${id}"} page: ${page}) {
         info {
